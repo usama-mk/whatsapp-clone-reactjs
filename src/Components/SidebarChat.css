@@ -1,0 +1,30 @@
+/* //applies to the whole app */
+*{
+    margin: 0; 
+}
+
+.sidebarChat {
+    font-size: x-small;
+    display: flex;
+    padding: 20px;
+    cursor: pointer;
+    border-bottom: 1px solid #f6f6f6;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.sidebarChat:hover {
+    background-color: #ebebeb;
+}
+
+.sidebarChat__info > h2{
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.sidebarChat__info {
+    margin-left: 15px;
+}
